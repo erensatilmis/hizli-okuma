@@ -1,9 +1,14 @@
 // src/pages/About.jsx
 
+import { useReveal } from "../hooks/useReveal";
+import { MANIFESTO } from "../lib/constants";
+
 function About() {
+  const { ref, visible } = useReveal();
+
   return (
     <section className="py-12">
-      <div className="mx-auto max-w-5xl px-4 sm:px-6 lg:px-8">
+      <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         {/* Üst başlık alanı */}
         <div className="mb-8 text-center">
           <p className="text-xs font-semibold tracking-[0.25em] text-sky-600 uppercase">
@@ -20,8 +25,7 @@ function About() {
         </div>
 
         {/* Ana içerik alanı */}
-        <div className="relative">
-          {/* Arka plan dekoru */}
+        <div ref={ref} className="relative">
           <div className="pointer-events-none absolute inset-0 -z-10 rounded-3xl bg-gradient-to-b from-sky-50/70 via-white to-white" />
 
           <div className="grid gap-10 md:grid-cols-[minmax(0,2fr)_minmax(0,1.2fr)] items-stretch">
@@ -88,41 +92,54 @@ function About() {
               </p>
             </div>
 
-            {/* Sağ: vurgulu kutu */}
+            {/* Sağ: manifesto */}
             <aside className="rounded-2xl border border-slate-100 bg-white/90 p-6 shadow-sm h-full flex flex-col">
-              <h2 className="text-sm font-semibold text-sky-700 mb-4">
-                Neye İnanıyoruz?
-              </h2>
-
-              <div className="flex flex-col gap-6 text-sm text-slate-700">
-                <p className="flex gap-3 leading-relaxed">
-                  <span className="text-lg leading-none">✨</span>
-                  <span>
-                    Her öğrencinin potansiyeli ölçümlenebilir, geliştirilebilir
-                    ve görünürdür. Bu nedenle eğitim sürecimizi veriye dayalı
-                    analizlerle yapılandırıyor, öğrencinin bireysel
-                    ihtiyaçlarını merkeze alıyoruz.
-                  </span>
+              <div className="mb-4">
+                <h2 className="text-sm font-semibold text-sky-700">
+                  Neye İnanıyoruz?
+                </h2>
+                <p className="mt-1 text-xs text-slate-500">
+                  Bu bir slogan değil; benimsediğimiz eğitim yaklaşımının
+                  özüdür.
                 </p>
 
-                <p className="flex gap-3 leading-relaxed">
-                  <span className="text-lg leading-none">✨</span>
-                  <span>
-                    Hızlı okuma, yalnızca daha hızlı okumak değil; bilgiyi
-                    etkili işleme, doğru anlama ve stratejik düşünme
-                    becerisidir. Bu becerilerin her yaşta bilimsel yöntemlerle
-                    geliştirilebileceğini biliyoruz.
-                  </span>
-                </p>
+                <div
+                  className={`mt-4 h-px w-full bg-gradient-to-r from-sky-500 to-indigo-400 transition-all duration-700 origin-left ${
+                    visible ? "scale-x-100 opacity-100" : "scale-x-0 opacity-0"
+                  }`}
+                />
+              </div>
 
-                <p className="flex gap-3 leading-relaxed">
-                  <span className="text-lg leading-none">✨</span>
-                  <span>
-                    Kişiselleştirilmiş eğitim en etkili öğrenme modelidir. Her
-                    öğrenciyi kendi profiline uygun tekniklerle destekleyerek
-                    sürdürülebilir bir gelişim elde edilmesini sağlıyoruz.
-                  </span>
-                </p>
+              <div className="flex flex-col gap-3">
+                {MANIFESTO.map((item, i) => (
+                  <div
+                    key={item.title}
+                    style={{ transitionDelay: `${i * 140}ms` }}
+                    className={`group rounded-xl border border-slate-100 bg-white/70 p-4 transition-all duration-500
+                      ${
+                        visible
+                          ? "opacity-100 translate-y-0"
+                          : "opacity-0 translate-y-3"
+                      }
+                      hover:border-sky-300 hover:shadow-[0_0_0_1px_rgba(56,189,248,0.25),0_8px_30px_rgba(56,189,248,0.15)]
+                    `}
+                  >
+                    {/* Başlık + ikon */}
+                    <div className="flex items-center gap-2">
+                      <span className="inline-flex h-6 w-6 items-center justify-center rounded-full bg-sky-50 text-sky-700 text-sm transition-colors duration-300 group-hover:bg-sky-100">
+                        ✨
+                      </span>
+                      <span className="text-sm font-semibold text-slate-900">
+                        {item.title}
+                      </span>
+                    </div>
+
+                    {/* Metin */}
+                    <p className="mt-2 text-sm text-slate-700 leading-relaxed">
+                      {item.text}
+                    </p>
+                  </div>
+                ))}
               </div>
             </aside>
           </div>

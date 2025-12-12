@@ -206,51 +206,57 @@ const CONTENT_ITEMS = [
 const GOALS = [
   {
     title: "Okuma Hızını Artırmak",
-    desc:
-      "• Öğrencinin başlangıç okuma hızı dijital ölçüm araçları ile analiz edilir.\n" +
-      "• Göz kaslarını güçlendiren ve satır takibini hızlandıran özel egzersizler uygulanır.\n" +
-      "• Sistem, hız verilerini gerçek zamanlı işleyerek öğrenciye uygun metin seviyelerini otomatik olarak belirler.\n" +
-      "• Hız artışı kalıcı hâle getirilir ve gelişim grafiklerle düzenli olarak raporlanır.",
+    bullets: [
+      "Öğrencinin başlangıç okuma hızı dijital ölçüm araçları ile analiz edilir.",
+      "Göz kaslarını güçlendiren ve satır takibini hızlandıran özel egzersizler uygulanır.",
+      "Sistem, hız verilerini gerçek zamanlı işleyerek öğrenciye uygun metin seviyelerini otomatik olarak belirler.",
+      "Hız artışı kalıcı hâle getirilir ve gelişim grafiklerle düzenli olarak raporlanır.",
+    ],
   },
   {
     title: "Anlama Düzeyini Artırmak",
-    desc:
-      "• Ana fikir bulma, çıkarım yapma ve metin ilişkilerini çözme gibi üst düzey bilişsel beceriler geliştirilir.\n" +
-      "• Her metin sonrasında anlama performansı dijital olarak ölçülür ve analiz edilir.\n" +
-      "• Sistem, öğrencinin anlama ihtiyaçlarına göre kişiselleştirilmiş içerik akışı sunar.\n" +
-      "• Metinlerin daha derinlikli yorumlanabilmesi için yapılandırılmış okuma stratejileri uygulanır.",
+    bullets: [
+      "Ana fikir bulma, çıkarım yapma ve metin ilişkilerini çözme gibi üst düzey bilişsel beceriler geliştirilir.",
+      "Her metin sonrasında anlama performansı dijital olarak ölçülür ve analiz edilir.",
+      "Sistem, öğrencinin anlama ihtiyaçlarına göre kişiselleştirilmiş içerik akışı sunar.",
+      "Metinlerin daha derinlikli yorumlanabilmesi için yapılandırılmış okuma stratejileri uygulanır.",
+    ],
   },
   {
     title: "Dikkat ve Konsantrasyonu Geliştirmek",
-    desc:
-      "• Dikkat süresini artıran nörobilim temelli odaklanma egzersizleri kullanılır.\n" +
-      "• Zamanlı görevler ve dikkat odaklı aktiviteler ile zihinsel dayanıklılık artırılır.\n" +
-      "• Öğrencinin dikkat dağılımı sistem tarafından izlenir, eksik alanlara özel çalışmalar atanır.\n" +
-      "• Konsantrasyon seviyesinin yükseltilmesiyle uzun metinlerde verimlilik artırılır.",
+    bullets: [
+      "Dikkat süresini artıran nörobilim temelli odaklanma egzersizleri kullanılır.",
+      "Zamanlı görevler ve dikkat odaklı aktiviteler ile zihinsel dayanıklılık artırılır.",
+      "Öğrencinin dikkat dağılımı sistem tarafından izlenir, eksik alanlara özel çalışmalar atanır.",
+      "Konsantrasyon seviyesinin yükseltilmesiyle uzun metinlerde verimlilik artırılır.",
+    ],
   },
   {
     title: "Kelime Dağarcığını Geliştirmek",
-    desc:
-      "• Sistem, öğrencinin kelime seviyesini analiz ederek eksik alanları tespit eder.\n" +
-      "• Bağlama dayalı kelime öğrenme, eş ve zıt anlam çalışmaları ile kavramsal ilişkiler geliştirilir.\n" +
-      "• Öğrenciye özel kelime kartları ve tekrar algoritmalarıyla kalıcı öğrenme desteklenir.\n" +
-      "• Kelime hazinesi gelişimi grafiksel olarak takip edilir ve düzenli raporlanır.",
+    bullets: [
+      "Sistem, öğrencinin kelime seviyesini analiz ederek eksik alanları tespit eder.",
+      "Bağlama dayalı kelime öğrenme, eş ve zıt anlam çalışmaları ile kavramsal ilişkiler geliştirilir.",
+      "Öğrenciye özel kelime kartları ve tekrar algoritmalarıyla kalıcı öğrenme desteklenir.",
+      "Kelime hazinesi gelişimi grafiksel olarak takip edilir ve düzenli raporlanır.",
+    ],
   },
   {
     title: "Zihinsel Haritalama",
-    desc:
-      "• Metnin ana ve yardımcı fikirleri arasında bağlantı kurmayı sağlayan görsel haritalar oluşturulur.\n" +
-      "• Bilgiyi organize etme becerisi, öğrencinin kendi dijital haritalarını üretmesiyle güçlenir.\n" +
-      "• Zihinsel yapılandırmayı destekleyen interaktif araçlar aktif olarak kullanılır.\n" +
-      "• Bu süreç, kalıcı öğrenmeyi ve akademik başarıyı belirgin biçimde artırır.",
+    bullets: [
+      "Metnin ana ve yardımcı fikirleri arasında bağlantı kurmayı sağlayan görsel haritalar oluşturulur.",
+      "Bilgiyi organize etme becerisi, öğrencinin kendi dijital haritalarını üretmesiyle güçlenir.",
+      "Zihinsel yapılandırmayı destekleyen interaktif araçlar aktif olarak kullanılır.",
+      "Bu süreç, kalıcı öğrenmeyi ve akademik başarıyı belirgin biçimde artırır.",
+    ],
   },
   {
     title: "Zaman Yönetimi",
-    desc:
-      "• Okuma süresini verimli kullanmaya yönelik zamanlı okuma uygulamaları yapılır.\n" +
-      "• Sınav formatına uygun hızlı okuma ve anlama egzersizleri uygulanır.\n" +
-      "• Öğrencinin çalışma alışkanlıkları analiz edilerek kişisel zaman planları oluşturulur.\n" +
-      "• Hız–anlama dengesi optimize edilerek öğrencinin ideal tempo aralığı belirlenir.",
+    bullets: [
+      "Okuma süresini verimli kullanmaya yönelik zamanlı okuma uygulamaları yapılır.",
+      "Sınav formatına uygun hızlı okuma ve anlama egzersizleri uygulanır.",
+      "Öğrencinin çalışma alışkanlıkları analiz edilerek kişisel zaman planları oluşturulur.",
+      "Hız–anlama dengesi optimize edilerek öğrencinin ideal tempo aralığı belirlenir.",
+    ],
   },
 ];
 
@@ -258,39 +264,43 @@ const METHODS = [
   {
     title: "Yerinde ve Online Eğitim Seçenekleri",
     tag: "Yüz Yüze + Online",
-    desc:
-      "• Eğitim modeli, kurumun ihtiyacına göre yüz yüze veya online olarak uygulanabilir.\n" +
-      "• Okullar, öğretmenler veya bireysel eğitmenler; dijital içeriklere 7/24 erişim sağlayarak karma (hibrit) bir yapı kurabilir.\n" +
-      "• Türkiye’nin her yerinden öğrenciler; sınıf, grup veya bireysel olarak sisteme dahil edilerek eş zamanlı ilerleme takibi yapılabilir.\n" +
-      "• Yerinde eğitimle dijital platform entegrasyonu birlikte çalışır; tüm öğrenciler tek merkezden takip edilebilir.",
+    bullets: [
+      "Eğitim modeli, kurumun ihtiyacına göre yüz yüze veya online olarak uygulanabilir.",
+      "Okullar, öğretmenler veya bireysel eğitmenler; dijital içeriklere 7/24 erişim sağlayarak karma (hibrit) bir yapı kurabilir.",
+      "Türkiye’nin her yerinden öğrenciler; sınıf, grup veya bireysel olarak sisteme dahil edilerek eş zamanlı ilerleme takibi yapılabilir.",
+      "Yerinde eğitimle dijital platform entegrasyonu birlikte çalışır; tüm öğrenciler tek merkezden takip edilebilir.",
+    ],
   },
   {
     title: "Eğitim Öğretim Yılına Entegre Dijital Öğrenme Programı",
     tag: "Maarif Modeli Uyumlu — Yıllık Sistem",
-    desc:
-      "• Program, Millî Eğitim Bakanlığının Maarif Modeli, ders kazanımları ve eğitim öğretim haftalarına göre hazırlanmış yıllık öğrenme modüllerine dayanır.\n" +
-      "• Okuma, anlama, dikkat ve kelime becerileri yıl boyunca düzenli olarak geliştirilir.\n" +
-      "• Dijital platform, öğrenci performans verilerini analiz ederek modülleri kişiye ve sınıfa özel otomatik olarak uyarlayan dinamik bir yapı sunar.\n" +
-      "• Kurumların akademik takvimine göre dönemlik, aylık ve haftalık içerikler planlanır; öğretmen ve yöneticiler için gelişim raporları oluşturulur.\n" +
-      "• Yıl boyunca sürdürülebilir, ölçülebilir ve şeffaf bir okuma gelişim sistemi sağlanır.",
+    bullets: [
+      "Program, Millî Eğitim Bakanlığının Maarif Modeli, ders kazanımları ve eğitim öğretim haftalarına göre hazırlanmış yıllık öğrenme modüllerine dayanır.",
+      "Okuma, anlama, dikkat ve kelime becerileri yıl boyunca düzenli olarak geliştirilir.",
+      "Dijital platform, öğrenci performans verilerini analiz ederek modülleri kişiye ve sınıfa özel otomatik olarak uyarlayan dinamik bir yapı sunar.",
+      "Kurumların akademik takvimine göre dönemlik, aylık ve haftalık içerikler planlanır; öğretmen ve yöneticiler için gelişim raporları oluşturulur.",
+      "Yıl boyunca sürdürülebilir, ölçülebilir ve şeffaf bir okuma gelişim sistemi sağlanır.",
+    ],
   },
   {
     title: "Ödev Takibi ve Veli / Yönetici İletişimi",
     tag: "Sürekli Takip",
-    desc:
-      "• Öğrencilerin yaptığı tüm egzersizler, okuma metinleri ve anlama testleri sistem tarafından otomatik olarak izlenir.\n" +
-      "• Öğrenci performansı sisteme anlık veriler olarak kaydedilir.\n" +
-      "• Kurum yöneticileri; sınıf, şube ve okul bazlı gelişimi tek panelden takip edebilir.\n" +
-      "• Süreç boyunca düzenli geri bildirim sağlanarak öğrencinin motivasyonu ve öğretmenin yönlendirme gücü desteklenir.",
+    bullets: [
+      "Öğrencilerin yaptığı tüm egzersizler, okuma metinleri ve anlama testleri sistem tarafından otomatik olarak izlenir.",
+      "Öğrenci performansı sisteme anlık veriler olarak kaydedilir.",
+      "Kurum yöneticileri; sınıf, şube ve okul bazlı gelişimi tek panelden takip edebilir.",
+      "Süreç boyunca düzenli geri bildirim sağlanarak öğrencinin motivasyonu ve öğretmenin yönlendirme gücü desteklenir.",
+    ],
   },
   {
     title: "Öğrenciye Özel Okuma Gelişim Karnesi",
     tag: "Kişiselleştirilmiş Değerlendirme",
-    desc:
-      "• Yıl sonunda her öğrenci için okuma hızı, anlama düzeyi, kelime kapasitesi, dikkat performansı ve zaman yönetimi becerilerini gösteren kişiye özel bir gelişim karnesi hazırlanır.\n" +
-      "• Karne; grafikler, analizler ve seviye karşılaştırmaları ile gelişimin somut olarak izlenmesini sağlar.\n" +
-      "• Öğrenci, yıl boyunca hangi modüllerde güçlendiğini ve hangi alanlarda destek alması gerektiğini net biçimde görür.\n" +
-      "• Kurumlar için sınıf ve okul bazlı toplu raporlar sunularak akademik kalite yönetimi desteklenir.",
+    bullets: [
+      "Yıl sonunda her öğrenci için okuma hızı, anlama düzeyi, kelime kapasitesi, dikkat performansı ve zaman yönetimi becerilerini gösteren kişiye özel bir gelişim karnesi hazırlanır.",
+      "Karne; grafikler, analizler ve seviye karşılaştırmaları ile gelişimin somut olarak izlenmesini sağlar.",
+      "Öğrenci, yıl boyunca hangi modüllerde güçlendiğini ve hangi alanlarda destek alması gerektiğini net biçimde görür.",
+      "Kurumlar için sınıf ve okul bazlı toplu raporlar sunularak akademik kalite yönetimi desteklenir.",
+    ],
   },
 ];
 
@@ -298,39 +308,58 @@ const PROGRAMS = [
   {
     title: "Akıcı Okuma ve Etkin Anlama Programı",
     tag: "İlkokul Öğrencileri için",
-    desc:
-      "• İlkokul öğrencilerinin okuma hızını, akıcılığını ve metni anlama becerisini eş zamanlı olarak geliştiren temel eğitim programıdır.\n" +
-      "• Harf–hece–kelime düzeyindeki okuma güçlüklerini belirleyip bireysel ve Türkiye Yüzyılı Maarif Modeli paralelinde bütüncül/bağlamsal çözümler sunan içerikler ve dijital egzersizlerle desteklenir.\n" +
-      "• Öğrencinin yaş ve gelişim özelliklerine uygun metinlerle okuma alışkanlığını güçlendirir.\n" +
-      "• Akademik temeli güçlendirirken özgüvenli, düzgün ve hızlı okuma becerisi kazandırmayı hedefler.",
+    desc: [
+      "İlkokul öğrencilerinin okuma hızını, akıcılığını ve metni anlama becerisini eş zamanlı olarak geliştiren temel eğitim programıdır.",
+      "Harf–hece–kelime düzeyindeki okuma güçlüklerini belirleyip bireysel ve Türkiye Yüzyılı Maarif Modeli paralelinde bütüncül/bağlamsal çözümler sunan içerikler ve dijital egzersizlerle desteklenir.",
+      "Öğrencinin yaş ve gelişim özelliklerine uygun metinlerle okuma alışkanlığını güçlendirir.",
+      "Akademik temeli güçlendirirken özgüvenli, düzgün ve hızlı okuma becerisi kazandırmayı hedefler.",
+    ],
   },
   {
     title: "Anlayarak Etkin Okuma ve Test Teknikleri",
     tag: "Ortaokul Öğrencileri için",
-    desc:
-      "• Ortaokul düzeyindeki öğrencilerin hem okuma–anlama becerilerini hem de sınav performansını artırmaya odaklanır.\n" +
-      "• Okuma güçlüklerini belirleyip bireysel ve Türkiye Yüzyılı Maarif Modeli paralelinde bütüncül/bağlamsal çözümler sunan içerikler ve dijital egzersizlerle desteklenir.\n" +
-      "• Bilgiye hızlı ulaşma, paragraf çözme, ana fikir bulma ve dikkat yönetimi gibi temel sınav becerilerini geliştirir.\n" +
-      "• Test çözme stratejileri, süre yönetimi ve soru tiplerine yönelik hedefli pratiklerle desteklenir.\n" +
-      "• Dijital platform üzerinden öğrenci gelişimi düzenli olarak takip edilerek eksik noktalar ivedilikle telafi edilir.",
+    desc: [
+      "Ortaokul düzeyindeki öğrencilerin hem okuma–anlama becerilerini hem de sınav performansını artırmaya odaklanır.",
+      "Okuma güçlüklerini belirleyip bireysel ve Türkiye Yüzyılı Maarif Modeli paralelinde bütüncül/bağlamsal çözümler sunan içerikler ve dijital egzersizlerle desteklenir.",
+      "Bilgiye hızlı ulaşma, paragraf çözme, ana fikir bulma ve dikkat yönetimi gibi temel sınav becerilerini geliştirir.",
+      "Test çözme stratejileri, süre yönetimi ve soru tiplerine yönelik hedefli pratiklerle desteklenir.",
+      "Dijital platform üzerinden öğrenci gelişimi düzenli olarak takip edilerek eksik noktalar ivedilikle telafi edilir.",
+    ],
   },
   {
     title: "LGS, TYT, AYT, YKS, ALES, KPSS Sınav Odaklı Hızlı Okuma",
     tag: "Sınav Hazırlık Öğrencileri için",
-    desc:
-      "• Sınavlarda zaman kazandırmayı, okuma hızını artırmayı ve anlamayı güçlendirmeyi hedefleyen özel bir programdır.\n" +
-      "• Paragraf, grafik–soru okuma ve mantık ilişkilendirme becerilerini geliştiren hedef odaklı teknikler sunar.\n" +
-      "• Dijital egzersizler sayesinde öğrencinin hız–doğruluk dengesi düzenli olarak ölçülür ve gelişimi detaylı raporlanır.\n" +
-      "• Sınav sürecindeki performansı artırmak için kişiselleştirilmiş geri bildirimlerle desteklenir.",
+    desc: [
+      "Sınavlarda zaman kazandırmayı, okuma hızını artırmayı ve anlamayı güçlendirmeyi hedefleyen özel bir programdır.",
+      "Paragraf, grafik–soru okuma ve mantık ilişkilendirme becerilerini geliştiren hedef odaklı teknikler sunar.",
+      "Dijital egzersizler sayesinde öğrencinin hız–doğruluk dengesi düzenli olarak ölçülür ve gelişimi detaylı raporlanır.",
+      "Sınav sürecindeki performansı artırmak için kişiselleştirilmiş geri bildirimlerle desteklenir.",
+    ],
   },
   {
     title: "Bireysel veya Kurumsal Hızlı Okuma Programları",
     tag: "Yetişkinler ve Kurumlar için",
-    desc:
-      "• Yetişkin bireyler veya kurum çalışanları için ihtiyaçlara göre özelleştirilen hızlı okuma ve odaklanma programlarıdır.\n" +
-      "• İş hayatında verimlilik, bilgiye hızlı ulaşma, rapor ve doküman okuma hızını artırmaya yönelik modüller içerir.\n" +
-      "• Kurumlar için toplu kullanıcı yönetimi, performans raporları ve yıllık gelişim analizleri sunan gelişmiş bir platformla desteklenir.\n" +
-      "• Bireyler için odaklanma, dikkat yönetimi ve ileri seviye anlama tekniklerini geliştiren güçlü bir uygulama alanı sağlar.",
+    desc: [
+      "Yetişkin bireyler veya kurum çalışanları için ihtiyaçlara göre özelleştirilen hızlı okuma ve odaklanma programlarıdır.",
+      "İş hayatında verimlilik, bilgiye hızlı ulaşma, rapor ve doküman okuma hızını artırmaya yönelik modüller içerir.",
+      "Kurumlar için toplu kullanıcı yönetimi, performans raporları ve yıllık gelişim analizleri sunan gelişmiş bir platformla desteklenir.",
+      "Bireyler için odaklanma, dikkat yönetimi ve ileri seviye anlama tekniklerini geliştiren güçlü bir uygulama alanı sağlar.",
+    ],
+  },
+];
+
+const MANIFESTO = [
+  {
+    title: "Ölçülebilir Potansiyel",
+    text: "Her öğrencinin potansiyeli ölçümlenebilir, geliştirilebilir ve görünürdür. Bu nedenle eğitim sürecimizi veriye dayalı analizlerle yapılandırıyor, öğrencinin bireysel ihtiyaçlarını merkeze alıyoruz.",
+  },
+  {
+    title: "Stratejik Okuma",
+    text: "Hızlı okuma, yalnızca daha hızlı okumak değil; bilgiyi etkili işleme, doğru anlama ve stratejik düşünme becerisidir. Bu becerilerin her yaşta bilimsel yöntemlerle geliştirilebileceğini biliyoruz.",
+  },
+  {
+    title: "Kişiselleştirilmiş Gelişim",
+    text: "Kişiselleştirilmiş eğitim en etkili öğrenme modelidir. Her öğrenciyi kendi profiline uygun tekniklerle destekleyerek sürdürülebilir bir gelişim elde edilmesini sağlıyoruz.",
   },
 ];
 
@@ -342,4 +371,5 @@ export {
   GOALS,
   METHODS,
   PROGRAMS,
+  MANIFESTO,
 };
