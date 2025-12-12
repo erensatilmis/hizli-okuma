@@ -9,6 +9,7 @@ const NAV_ITEMS = [
   { label: "Hedeflerimiz", to: "/hedeflerimiz" },
   { label: "Yöntemlerimiz", to: "/yontemlerimiz" },
   { label: "Eğitim Türlerimiz", to: "/egitim-turlerimiz" },
+  { label: "SSS", to: "/sss" },
 ];
 
 function Navbar() {

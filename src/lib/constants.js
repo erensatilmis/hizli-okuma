@@ -2,49 +2,49 @@ const ADVANTAGES = [
   {
     title: "Kişiselleştirilmiş Eğitim",
     description:
-      "Her öğrencinin okuma hızı, anlama düzeyi ve hedeflerine göre uyarlanan dinamik içerikler.",
+      "Platformumuz; her öğrencinin bilişsel profiline, okuma hızına, anlama düzeyine ve gelişim eğrisine göre otomatik olarak uyarlanan dinamik bir öğrenme akışı sunar. Yapay zekâ destekli analiz sistemi; güçlendirilmesi gereken alanları tespit eder, hedef odaklı içerikler üretir ve öğrencinin hızına uygun bireysel bir eğitim yolu oluşturur. Bireyi, nöro-bilişsel okuma hızı, anlama düzeyi ve odaklanma kapasitesine göre dinamik olarak uyarlanan algoritmik temelli içeriklerle destekler. Bu süreçte zihinsel haritalama, görsel algı gelişimini maksimize eden, tekil öğrenme profiline odaklı, özel müfredat optimizasyonu sayesinde her öğrenci kendi öğrenme ritmine göre en etkili gelişimi yaşar.",
     icon: "🎯",
   },
   {
-    title: "7/24 Erişim",
+    title: "7/24 Erişilebilirlik ve Senkronizasyon",
     description:
-      "İstediğiniz zaman, istediğiniz yerden; bilgisayar, tablet ya da telefonla eğitime devam edin.",
+      "Dijital platforma günün her saatinde; bilgisayar, tablet veya akıllı telefon üzerinden erişim sağlanabilir. Öğrencinin ilerlemesi tüm cihazlar arasında anlık olarak senkronize edilir, böylece öğrenme deneyimi hiç kesilmeden devam eder. Evde, okulda veya yolda tüm eğitim içerikleri her zaman ulaşılabilir durumdadır. Bu sayede öğrenme sürekliliği korunur.",
     icon: "🕒",
   },
   {
-    title: "Veri Odaklı Takip",
+    title: "Veri Odaklı Takip ve Analiz",
     description:
-      "Okuma hızı, anlama oranı ve ilerleme grafikleri ile gelişiminizi ayrıntılı olarak takip edin.",
+      "Öğrencinin okuma hızı, anlama oranı, dikkat performansı ve egzersiz başarı yüzdeleri sistem tarafından sürekli izlenir. Bu kritik performans metriklerinin ilerleme grafikleri, analitik raporlarla takip edilerek ebeveyn ve eğitmenlere diagnostik raporlar şeklinde sunulur. Gelişimin her adımı ölçülebilir, şeffaf ve takip edilebilir hâle gelir. Bu yapı, öğrencinin akademik başarısındaki ilerlemeyi somut ve bilimsel verilerle izlenebilir kılar.",
     icon: "📊",
   },
   {
-    title: "Eğlenceli İçerikler",
+    title: "Oyunlaştırılmış İçerikler",
     description:
-      "Oyunlaştırılmış egzersizler ve interaktif etkinliklerle öğrencilerin motivasyonunu yüksek tutun.",
+      "Oyunlaştırılmış egzersizler, hız yarışmaları, dikkat odaklı mini oyunlar ve interaktif metin çalışmaları sayesinde öğrenciler yüksek motivasyonla öğrenme sürecine katılır. Öğrencinin motivasyon katsayısını ve öğrenmeye bağlılığını sürekli yüksek tutan didaktik tasarım; eğitimi zorunluluk olmaktan çıkararak keyifli, akıcı ve merak uyandıran bir öğrenme deneyimine dönüştürür.",
     icon: "🎮",
   },
   {
     title: "Uzman Eğitmenler",
     description:
-      "Alanında uzman eğitmenler tarafından hazırlanmış program ve içeriklere güvenle erişin.",
+      "Platformun tüm içerikleri; hızlı okuma, bilişsel gelişim, dil bilimi ve öğrenme psikolojisi alanlarında uzman eğitmenler tarafından tasarlanmıştır. Eğitim süreci bilimsel araştırmalar, modern pedagojik yaklaşımlar ve uluslararası hızlı okuma standartları referans alınarak yapılandırılmıştır.",
     icon: "👩‍🏫",
   },
   {
-    title: "Güvenli ve Kolay",
+    title: "Güvenli ve Kolay Kullanılabilir Arayüz",
     description:
-      "Kolay kullanılabilir arayüz ve güvenli altyapı ile hem öğrenciler hem veliler için konforlu bir deneyim.",
+      "Öğrenci, veli ve eğitmen paneli; kullanıcı dostu tasarımı ve sade navigasyon yapısıyla herkes için rahat bir kullanım sunar. Tüm veriler güvenli sunucularda saklanır ve gelişmiş güvenlik protokolleriyle korunur. Platform, kesintisiz ve güvenilir bir dijital eğitim deneyimi oluşturmak üzere optimize edilmiştir.",
     icon: "🔒",
   },
   {
     title: "Güncel Materyaller",
     description:
-      "Müfredata ve çağın ihtiyaçlarına uygun olarak düzenli güncellenen dijital materyaller.",
+      "Milli Eğitim ve ÖSYM (YKS, LGS, ALES vb.) güncellemelerine, dünya çapındaki bilişsel bilim ve eğitim teknolojileri trendlerine uygun olarak güncellenen bir öğrenmeyi öğrenme platformudur. Zenginleştirilmiş dijital kütüphaneyi de kapsayan sistem; öğrencinin okuma seviyesine, yaş grubuna ve gelişim ihtiyacına göre düzenli olarak yenilenen metinler, alıştırmalar ve görsel içerikler sunar.",
     icon: "📚",
   },
   {
-    title: "Zaman ve Mekân Tasarrufu",
+    title: "Zaman ve Mekân Optimizasyonu",
     description:
-      "Fiziksel sınıf sınırlarını aşan çevrim içi altyapı ile zamanı daha verimli kullanın.",
+      "Bireysel tempoya uygun çalışma imkânı sunan dijital altyapı, öğrencinin öğrenme sürecini fiziksel sınıf sınırlarının dışına taşır. Evde, okulda veya yolculuk sırasında kesintisiz erişim sağlayarak seyahat ve zaman kaybını ortadan kaldırır. Bu esneklik, öğrencinin bilişsel yükünü azaltıp verimliliğini maksimum seviyeye çıkarırken hem öğrenci hem de veli için büyük bir konfor sağlar.",
     icon: "⏱️",
   },
 ];
@@ -54,49 +54,56 @@ const CORE_BENEFITS = [
     no: "01",
     title: "Hızlı Okuma Yeteneği",
     description:
-      "Okuma hızınızı artırarak daha kısa sürede daha fazla içerik tüketmenizi sağlar.",
+      "Metinleri daha geniş kelime grupları hâlinde algılama ve göz hareketlerini optimize etmeye yönelik gelişmiş hızlı okuma teknikleri uygulanır. Bu yaklaşım, öğrencilerin okuma hızını doğal ve sürdürülebilir bir şekilde artırırken metne hâkimiyetlerini güçlendirir. Böylelikle derslerde, sınavlarda ve günlük akademik süreçlerde bilgiye çok daha hızlı erişim sağlanır.",
   },
   {
     no: "02",
     title: "Yüksek Anlama Becerisi",
     description:
-      "Metinlere daha derin odaklanarak anlama oranını yükseltir ve daha kalıcı öğrenme sağlar.",
+      "Program; semantik analiz, bağlamsal çıkarım, mantık akışı oluşturma ve kavramlar arası ilişki kurma becerisini geliştiren derin okuma stratejilerine dayanır. Öğrencilerin paragraf metinlerini anlamlandırma, ana–yardımcı fikir ayrımı yapma ve metni bütüncül şekilde kavrama becerileri belirgin biçimde güçlenir. Bu gelişim, tüm derslerde okuduğunu anlama performansını yükseltir.",
   },
   {
     no: "03",
     title: "Odaklanma Gücünün Artırılması",
     description:
-      "Zihinsel dağınıklığı azaltır, okuma sırasında dikkati uzun süre korumanıza yardımcı olur.",
+      "Nörobilişsel temelli dikkat egzersizleri ile zihinsel dağınıklık azaltılır, öğrencinin odaklanma süresi uzatılır ve bilişsel dayanıklılığı desteklenir. Bu beceri özellikle uzun metinlerde, yoğun içeriklerde ve sınav performansında önemli bir avantaj sağlar. Düzenli uygulamalar, öğrencinin tek bir göreve istikrarlı biçimde odaklanabilmesini kolaylaştırır.",
   },
   {
     no: "04",
     title: "Zaman Yönetimi",
     description:
-      "Daha kısa sürede daha fazla bilgiye erişerek çalışma verimliliğinizi artırır.",
+      "Öğrencilerin sınavlarda ve ders çalışmalarında zaman kullanımını optimize eden stratejiler öğretilir. Kritik bilgiyi ayıklama, metni hızlı tarama, gereksiz detayları filtreleme ve etkili bir okuma temposu oluşturma becerileri kazandırılır. Bu yetkinlikler, sınav sürelerinin daha verimli kullanılmasına ve çalışma rutinlerinin planlı yürütülmesine katkı sağlar.",
   },
   {
     no: "05",
     title: "Hafıza Güçlendirme Teknikleri",
     description:
-      "Bilgiyi hafızada daha uzun süre tutmaya yardımcı olan profesyonel teknikler sunar.",
+      "Görsel kodlama, ilişkilendirme, mekânsal yerleştirme ve sıralama gibi hafızayı destekleyen modern öğrenme teknikleri uygulanır. Öğrenciler öğrendikleri bilgileri daha uzun süre hatırlayabilir, gerektiğinde hızlıca geri çağırabilir ve ders performanslarını yapısal olarak güçlendirebilir. Bu yaklaşım, çoklu ders yükü olan öğrenciler için önemli bir avantaj sağlar.",
   },
   {
     no: "06",
     title: "Görsel Algı Güçlendirme",
     description:
-      "Göz kaslarını ve algıyı geliştirerek daha hızlı ve daha akıcı okuma becerisi kazandırır.",
+      "Göz–beyin koordinasyonunu geliştiren egzersizlerle satır takibi, kelime bloklarını algılama ve görsel işlemleme hızında belirgin bir artış sağlanır. Bu gelişim, öğrencilerin akıcı okuma becerisini yükseltirken metinlerdeki detayları daha hızlı seçmelerine yardımcı olur. Özellikle okuma sırasında satır kaydırma veya hız düşüklüğü yaşayan öğrenciler için yüksek etkili bir destek sunar.",
   },
   {
     no: "07",
     title: "Zihin Haritalama Teknikleri",
     description:
-      "Bilgileri görselleştirerek konuları daha iyi kavramayı ve düzenlemeyi sağlar.",
+      "Bilgilerin hiyerarşik biçimde düzenlenmesi, ana–yardımcı fikir ayrımı yapılması ve kavram ilişkilerinin görselleştirilmesine dayanan bu teknik, öğrenme süreçlerini sistematik hâle getirir. Çalışma notlarının, ders içeriklerinin ve sınav konularının daha organize bir yapıya kavuşmasını sağlar. Uzun konuları sadeleştirme ve verimli çalışma alışkanlığı kazandırma açısından etkilidir.",
   },
   {
     no: "08",
-    title: "Akademik ve Mesleki Başarı",
+    title: "Profesyonel ve Akademik Başarı",
     description:
-      "Okuma ve anlama becerilerinin tümü, akademik performansınız ve iş hayatındaki başarınızı doğrudan destekler.",
+      "Yoğun bilgi akışıyla çalışan profesyoneller için program; bilgiyi daha hızlı işleme, önemli veriyi kısa sürede ayıklama ve doküman trafiğini verimli yönetme becerileri kazandırır.\n\n" +
+      "Bu gelişim profesyoneller için:\n" +
+      "• Toplantı ve sunum hazırlık süresinin kısalmasını,\n" +
+      "• E-posta ve doküman okuma hızının artmasını,\n" +
+      "• Karar alma süreçlerinin daha hızlı ve net ilerlemesini,\n" +
+      "• Bilgi yükünün azalmasını ve zihinsel enerjinin korunmasını,\n" +
+      "• Günlük iş verimliliğinde belirgin bir yükselişi beraberinde getirir.\n\n" +
+      "Öğrenciler için ise bu beceriler; derslerde, sınavlarda ve akademik süreçlerde daha yüksek performans ve sürdürülebilir başarıya dönüşür.",
   },
 ];
 
@@ -123,163 +130,207 @@ const TESTIMONIALS = [
 
 const CONTENT_ITEMS = [
   {
-    title: "Okuma -hazırbulunuşluk- ölçümü",
+    title: "Okuma – Hazır Bulunuşluk Ölçümü",
     description:
-      "Programın başında öğrencinin mevcut okuma hızı, anlama düzeyi ve dikkat süresi ölçülür. Böylece eğitim, tamamen öğrencinin ihtiyaçlarına göre şekillendirilir.",
+      "Programın başlangıcında öğrencinin mevcut okuma hızı, anlama düzeyi, kelime işlemleme kapasitesi, göz tarama alışkanlıkları ve dikkat süresi bilimsel ölçüm araçlarıyla analiz edilir. Bu ölçüm, öğrencinin bireysel profilini netleştirir ve eğitim süreci tamamen öğrenciye özel olarak şekillendirilir.",
   },
   {
-    title: "Hızlı okumaya neden ihtiyaç duyarız?",
+    title: "Hızlı Okumaya Neden İhtiyaç Duyarız?",
     description:
-      "Günümüzde artan bilgi yoğunluğu ve sınav baskısı karşısında hızlı okumanın neden kritik olduğu, somut örnekler üzerinden anlatılır.",
+      "Bilgi çağında her gün binlerce kelime ile yüzleşiyoruz. Akademik başarı, sınav performansı, mesleki verimlilik ve günlük yaşamda doğru karar verme; bilgiyi hızlı işleme becerisiyle doğrudan ilişkilidir. Bu bölümde hızlı okumanın neden modern bir zorunluluk hâline geldiği bilimsel temelli örneklerle açıklanır.",
   },
   {
-    title: "Öğrenmeyi öğrenme",
+    title: "Öğrenmeyi Öğrenme",
     description:
-      "Beynin öğrenme süreçleri, kalıcı öğrenmenin temel prensipleri ve verimli çalışma yöntemleri aktarılır. Öğrenciye, nasıl daha etkili çalışabileceğini gösterir.",
+      "Eğitim sürecinin temel yapı taşlarından biri olan öğrenmeyi öğrenme; öğrencinin bilgiyi doğru alma, anlamlandırma, depolama ve gerektiğinde etkili biçimde geri çağırma becerilerini geliştirir. Bu bölümde öğrenci, kendi bilişsel mekanizmasını tanır ve öğrenme verimliliğini artıracak teknikleri uygulamayı öğrenir.",
   },
   {
-    title: "Amaca yönelik okuma biçimleri",
+    title: "Amaca Yönelik Okuma Biçimleri",
     description:
-      "Ders çalışmak, sınava hazırlanmak, araştırma yapmak veya keyif için okumak gibi farklı amaçlar için farklı okuma teknikleri öğretilir.",
+      "Her metnin aynı hızda ve aynı teknikle okunamayacağı öğretilir. Öğrenci; hızlı tarama, seçici okuma, akademik okuma, sınav odaklı okuma ve analitik okuma gibi farklı okuma stillerini öğrenir ve hangi metinde hangi yaklaşımı kullanması gerektiğini deneyimleyerek kavrar.",
   },
   {
-    title: "Nasıl okuyoruz? Nasıl okumalıyız?",
+    title: "Nasıl Okuyoruz? Nasıl Okumalıyız?",
     description:
-      "Öğrencinin mevcut okuma alışkanlıkları analiz edilir; satır atlama, geri dönüşler, iç ses gibi hız düşüren alışkanlıklar tespit edilip düzeltilir.",
-  },
-  {
-    title:
-      "Hızlı okumanın önündeki engeller ve bu engellerden kurtulma yolları nelerdir?",
-    description:
-      "Dikkat dağınıklığı, kaygı, iç ses ve motivasyon eksikliği gibi engellerin sebepleri konuşulur ve bunları azaltmaya yönelik pratik çözümler sunulur.",
-  },
-  {
-    title: "Hızlı okuma egzersiz ve uygulamaları",
-    description:
-      "Göz tarama alanını genişleten, satır takibini hızlandıran ve hız–anlama dengesini koruyan özel egzersizler uygulanır.",
-  },
-  {
-    title: "Odaklanma egzersiz ve uygulamaları",
-    description:
-      "Dikkati tek noktada tutma, dağılan dikkati toparlama ve zihinsel gürültüyü azaltmaya yardımcı odak çalışmaları yapılır.",
-  },
-  {
-    title: "Göz kaslarının gelişimi ve esnetilmesine yönelik egzersizler",
-    description:
-      "Göz kaslarını güçlendiren, yatay-dikey taramayı hızlandıran ve görsel algıyı destekleyen egzersizler uygulanır.",
-  },
-  {
-    title: "Öğrencinin içsel motivasyonunun sağlanması",
-    description:
-      "Öğrencinin hedefleri ve güçlü yönleri üzerinde durularak, süreç boyunca motive kalmasını sağlayacak içsel motivasyon çalışmaları yapılır.",
-  },
-  {
-    title: "Ödevlendirme ve elbette ödev takibi",
-    description:
-      "Her ders sonrası verilen egzersizler bir sonraki derste kontrol edilir. Böylece öğrenci yalnız bırakılmaz ve gelişim düzenli olarak takip edilir.",
+      "Okuma sırasında beynin, gözlerin ve çalışma belleğinin nasıl işlediği açıklanır. İç seslendirme, geri dönüşler ve kelime kelime okuma gibi yanlış alışkanlıkların farkına varılır. Daha hızlı ve etkili okuyabilmek için blok okuma, takistoskop ve ritmik odaklama gibi doğru teknikler öğretilir.",
   },
   {
     title:
-      "Öğrenci sınav sürecinde ise yeni nesil sorulara hızlı okuma becerisini nasıl uygulayacağı",
+      "Hızlı Okumanın Önündeki Engeller ve Bu Engellerden Kurtulma Yolları Nelerdir?",
     description:
-      "Yeni nesil soru tipleri üzerinden örnekler çözülerek, hızlı okuma becerisinin paragraf, grafik ve tablo sorularında nasıl kullanılacağı öğretilir.",
+      "Okuma hızını ve anlama verimliliğini düşüren bilişsel ve fiziksel engeller analiz edilir: iç seslendirme, dar görüş alanı, düşük konsantrasyon, kaygı, motivasyon eksikliği ve yanlış okuma alışkanlıkları. Her engel için öğrenciye özel çözümler ve egzersizler uygulanır.",
   },
   {
-    title: "Hangi soru tipine nasıl bir yaklaşım sergilenmesi gerektiği",
+    title: "Hızlı Okuma Egzersizleri ve Uygulamaları",
     description:
-      "Türkçe, sosyal, sayısal ve sözel alanlardaki farklı soru tipleri için ayrı çözüm stratejileri ve okuma teknikleri anlatılır.",
+      "Programın pratik uygulama alanı olan bu bölümde; göz kaslarını güçlendiren, görüş alanını genişleten, satır takibini hızlandıran ve kelime tanıma sürelerini kısaltan dijital egzersizler uygulanır. Egzersizler, kişiye özel hız artışı sağlayacak biçimde sistem tarafından uyarlanır.",
   },
   {
-    title: "Türkçenin geliştirilmesi, kelime dağarcığının zenginleştirilmesi",
+    title: "Odaklanma Egzersizleri ve Uygulamaları",
     description:
-      "Kelime hazinesini güçlendiren etkinlikler, okuma önerileri ve bağlamdan anlam çıkarma çalışmaları yapılır.",
+      "Okuma sırasında dikkat dağınıklığını azaltmak ve uzun süreli zihinsel odaklanmayı artırmak için hazırlanmış özel egzersizler uygulanır. Bu bölüm özellikle sınav sürecindeki öğrencilerin performansını belirgin biçimde yükseltir.",
   },
   {
-    title: "Atasözü ve deyimlere yönelik kazanım ve etkinlikler",
+    title: "Göz Kaslarının Gelişimi ve Esnetilmesine Yönelik Egzersizler",
     description:
-      "Atasözü ve deyimlerin anlamı, kullanım alanları ve günlük hayattaki karşılıkları üzerinde durulur; etkinliklerle pekiştirilir.",
+      "Hızlı okuma becerisinin temelini oluşturan göz kasları, bilimsel prensiplere dayanan profesyonel egzersizlerle güçlendirilir. Bu uygulamalar gözün satırlar üzerinde daha hızlı ve akıcı hareket etmesini sağlarken göz yorgunluğunu da azaltır.",
   },
   {
-    title: "Sınav kaygısı ile baş etme yöntemleri",
+    title: "Öğrencinin İçsel Motivasyonunun Sağlanması",
     description:
-      "Sınav öncesi ve sırasında kaygıyı azaltmaya yardımcı nefes egzersizleri, düşünce yönetimi ve basit rahatlama teknikleri öğretilir.",
+      "Öğrencinin öğrenme sürecine aktif katılım göstermesi için motivasyon kaynakları belirlenir. Hedef koyma, gelişimi takip etme, başarı grafiğini görme ve öz düzenleme becerileri geliştirilir. Bu bölüm, eğitimin sürdürülebilirliğini sağlar.",
+  },
+  {
+    title: "Ödevlendirme ve Elbette Ödev Takibi",
+    description:
+      "Platform, öğrenciye özel dijital ödevler sunar ve tüm ödevler sistem tarafından otomatik olarak takip edilir. Ödev süreleri, yapılan hatalar, hız ilerlemeleri ve performans grafikleri hem eğitmen hem veli tarafından şeffaf biçimde izlenebilir.",
+  },
+  {
+    title:
+      "Öğrenci Sınav Sürecinde İse Yeni Nesil Sorulara Hızlı Okuma Becerisini Nasıl Uygulayacağı",
+    description:
+      "Hızlı okuma becerisinin sınavlardaki yeni nesil soru tiplerine entegre edilmesi sağlanır. Paragraf soruları, grafik ve tablo yorumlama, görsel okuma ve akıl yürütme sorularında hız ve algı yönetimi öğretilir.",
+  },
+  {
+    title: "Hangi Soru Tipine Nasıl Bir Yaklaşım Sergilememiz Gerektiği",
+    description:
+      "Her soru tipi kendine özgü bir okuma, analiz ve çözüm stratejisi gerektirir. Çoktan seçmeli, yorumlama, karşılaştırma, çıkarım, grafik okuma ve akıl yürütme sorularına yönelik etkili yaklaşım teknikleri öğretilir.",
+  },
+  {
+    title: "Türkçenin Geliştirilmesi, Kelime Dağarcığının Zenginleştirilmesi",
+    description:
+      "Kelime bilgisi; hızlı okuma, odaklanma ve anlama becerilerinin merkezindedir. Bu bölümde öğrencinin aktif kelime hazinesi genişletilir, bağlamdan anlam çıkarma becerisi güçlendirilir ve Türkçe düşünme–ifade etme kapasitesi geliştirilir.",
   },
 ];
 
 const GOALS = [
   {
     title: "Okuma Hızını Artırmak",
-    desc: "Bireylerin kelime ve cümleleri daha hızlı algılayarak okuma hızlarını artırmalarını sağlamak.",
+    desc:
+      "• Öğrencinin başlangıç okuma hızı dijital ölçüm araçları ile analiz edilir.\n" +
+      "• Göz kaslarını güçlendiren ve satır takibini hızlandıran özel egzersizler uygulanır.\n" +
+      "• Sistem, hız verilerini gerçek zamanlı işleyerek öğrenciye uygun metin seviyelerini otomatik olarak belirler.\n" +
+      "• Hız artışı kalıcı hâle getirilir ve gelişim grafiklerle düzenli olarak raporlanır.",
   },
   {
-    title: "Anlama Düzeyini Arttırmak",
-    desc: "Okuma hızını artırırken aynı zamanda metnin genel anlamını ve detaylarını kavrama becerisini geliştirmek.",
+    title: "Anlama Düzeyini Artırmak",
+    desc:
+      "• Ana fikir bulma, çıkarım yapma ve metin ilişkilerini çözme gibi üst düzey bilişsel beceriler geliştirilir.\n" +
+      "• Her metin sonrasında anlama performansı dijital olarak ölçülür ve analiz edilir.\n" +
+      "• Sistem, öğrencinin anlama ihtiyaçlarına göre kişiselleştirilmiş içerik akışı sunar.\n" +
+      "• Metinlerin daha derinlikli yorumlanabilmesi için yapılandırılmış okuma stratejileri uygulanır.",
   },
   {
     title: "Dikkat ve Konsantrasyonu Geliştirmek",
-    desc: "Okuma sırasında dikkat dağınıklığını azaltarak konsantrasyon seviyesini yükseltmek.",
+    desc:
+      "• Dikkat süresini artıran nörobilim temelli odaklanma egzersizleri kullanılır.\n" +
+      "• Zamanlı görevler ve dikkat odaklı aktiviteler ile zihinsel dayanıklılık artırılır.\n" +
+      "• Öğrencinin dikkat dağılımı sistem tarafından izlenir, eksik alanlara özel çalışmalar atanır.\n" +
+      "• Konsantrasyon seviyesinin yükseltilmesiyle uzun metinlerde verimlilik artırılır.",
   },
   {
     title: "Kelime Dağarcığını Geliştirmek",
-    desc: "Daha fazla kelimeyi tanımak ve bağlama göre hızlı anlam çıkarma becerisini geliştirmek.",
+    desc:
+      "• Sistem, öğrencinin kelime seviyesini analiz ederek eksik alanları tespit eder.\n" +
+      "• Bağlama dayalı kelime öğrenme, eş ve zıt anlam çalışmaları ile kavramsal ilişkiler geliştirilir.\n" +
+      "• Öğrenciye özel kelime kartları ve tekrar algoritmalarıyla kalıcı öğrenme desteklenir.\n" +
+      "• Kelime hazinesi gelişimi grafiksel olarak takip edilir ve düzenli raporlanır.",
   },
   {
     title: "Zihinsel Haritalama",
-    desc: "Metindeki ana fikir ve önemli noktaları zihinde canlandırarak bilgiyi etkili bir şekilde organize etmek.",
+    desc:
+      "• Metnin ana ve yardımcı fikirleri arasında bağlantı kurmayı sağlayan görsel haritalar oluşturulur.\n" +
+      "• Bilgiyi organize etme becerisi, öğrencinin kendi dijital haritalarını üretmesiyle güçlenir.\n" +
+      "• Zihinsel yapılandırmayı destekleyen interaktif araçlar aktif olarak kullanılır.\n" +
+      "• Bu süreç, kalıcı öğrenmeyi ve akademik başarıyı belirgin biçimde artırır.",
   },
   {
     title: "Zaman Yönetimi",
-    desc: "Okuma süresini daha verimli kullanarak daha kısa sürede daha fazla bilgi edinmek.",
+    desc:
+      "• Okuma süresini verimli kullanmaya yönelik zamanlı okuma uygulamaları yapılır.\n" +
+      "• Sınav formatına uygun hızlı okuma ve anlama egzersizleri uygulanır.\n" +
+      "• Öğrencinin çalışma alışkanlıkları analiz edilerek kişisel zaman planları oluşturulur.\n" +
+      "• Hız–anlama dengesi optimize edilerek öğrencinin ideal tempo aralığı belirlenir.",
   },
 ];
 
 const METHODS = [
   {
     title: "Yerinde ve Online Eğitim Seçenekleri",
-    desc: "Kurslarımız, İstanbul Büyükçekmece’de şubemizde yüz yüze ya da online olarak; grup eğitimleri veya bireysel eğitim şeklinde, tercihe göre düzenlenmektedir.",
-    tag: "Yüz yüze + Online",
+    tag: "Yüz Yüze + Online",
+    desc:
+      "• Eğitim modeli, kurumun ihtiyacına göre yüz yüze veya online olarak uygulanabilir.\n" +
+      "• Okullar, öğretmenler veya bireysel eğitmenler; dijital içeriklere 7/24 erişim sağlayarak karma (hibrit) bir yapı kurabilir.\n" +
+      "• Türkiye’nin her yerinden öğrenciler; sınıf, grup veya bireysel olarak sisteme dahil edilerek eş zamanlı ilerleme takibi yapılabilir.\n" +
+      "• Yerinde eğitimle dijital platform entegrasyonu birlikte çalışır; tüm öğrenciler tek merkezden takip edilebilir.",
   },
   {
-    title: "32 Saatlik Hibrit Program",
-    desc: "Toplam 32 saatlik eğitim; 16 canlı ders ile 16 saatlik dijital platform üzerinden yapılan egzersiz ve ödevlerden oluşan hibrit bir yapıdadır.",
-    tag: "16 Canlı Ders + 16 Saat Dijital",
+    title: "Eğitim Öğretim Yılına Entegre Dijital Öğrenme Programı",
+    tag: "Maarif Modeli Uyumlu — Yıllık Sistem",
+    desc:
+      "• Program, Millî Eğitim Bakanlığının Maarif Modeli, ders kazanımları ve eğitim öğretim haftalarına göre hazırlanmış yıllık öğrenme modüllerine dayanır.\n" +
+      "• Okuma, anlama, dikkat ve kelime becerileri yıl boyunca düzenli olarak geliştirilir.\n" +
+      "• Dijital platform, öğrenci performans verilerini analiz ederek modülleri kişiye ve sınıfa özel otomatik olarak uyarlayan dinamik bir yapı sunar.\n" +
+      "• Kurumların akademik takvimine göre dönemlik, aylık ve haftalık içerikler planlanır; öğretmen ve yöneticiler için gelişim raporları oluşturulur.\n" +
+      "• Yıl boyunca sürdürülebilir, ölçülebilir ve şeffaf bir okuma gelişim sistemi sağlanır.",
   },
   {
-    title: "Ödev Takibi ve Veli İletişimi",
-    desc: "Eğitim sürecinde ödev takibi düzenli olarak yapılır; eğitmen-veli iletişimi, öğrencinin sürece aktif katılımını ve gelişimini destekleyecek şekilde yapılandırılır.",
+    title: "Ödev Takibi ve Veli / Yönetici İletişimi",
     tag: "Sürekli Takip",
+    desc:
+      "• Öğrencilerin yaptığı tüm egzersizler, okuma metinleri ve anlama testleri sistem tarafından otomatik olarak izlenir.\n" +
+      "• Öğrenci performansı sisteme anlık veriler olarak kaydedilir.\n" +
+      "• Kurum yöneticileri; sınıf, şube ve okul bazlı gelişimi tek panelden takip edebilir.\n" +
+      "• Süreç boyunca düzenli geri bildirim sağlanarak öğrencinin motivasyonu ve öğretmenin yönlendirme gücü desteklenir.",
   },
   {
     title: "Öğrenciye Özel Okuma Gelişim Karnesi",
-    desc: "Eğitimin sonunda her öğrenci için, okuma hızını ve anlama düzeyindeki ilerlemeyi gösteren kişiye özel bir okuma gelişim karnesi hazırlanır.",
     tag: "Kişiselleştirilmiş Değerlendirme",
+    desc:
+      "• Yıl sonunda her öğrenci için okuma hızı, anlama düzeyi, kelime kapasitesi, dikkat performansı ve zaman yönetimi becerilerini gösteren kişiye özel bir gelişim karnesi hazırlanır.\n" +
+      "• Karne; grafikler, analizler ve seviye karşılaştırmaları ile gelişimin somut olarak izlenmesini sağlar.\n" +
+      "• Öğrenci, yıl boyunca hangi modüllerde güçlendiğini ve hangi alanlarda destek alması gerektiğini net biçimde görür.\n" +
+      "• Kurumlar için sınıf ve okul bazlı toplu raporlar sunularak akademik kalite yönetimi desteklenir.",
   },
 ];
 
 const PROGRAMS = [
   {
-    category: "İlkokul Öğrencileri İçin",
     title: "Akıcı Okuma ve Etkin Anlama Programı",
-    desc: "İlkokul öğrencilerinin okuma hızını ve okuduğunu anlama becerisini birlikte geliştiren, temel okuma becerilerinin güçlendirilmesine yönelik program.",
-    tag: "İlkokul",
+    tag: "İlkokul Öğrencileri için",
+    desc:
+      "• İlkokul öğrencilerinin okuma hızını, akıcılığını ve metni anlama becerisini eş zamanlı olarak geliştiren temel eğitim programıdır.\n" +
+      "• Harf–hece–kelime düzeyindeki okuma güçlüklerini belirleyip bireysel ve Türkiye Yüzyılı Maarif Modeli paralelinde bütüncül/bağlamsal çözümler sunan içerikler ve dijital egzersizlerle desteklenir.\n" +
+      "• Öğrencinin yaş ve gelişim özelliklerine uygun metinlerle okuma alışkanlığını güçlendirir.\n" +
+      "• Akademik temeli güçlendirirken özgüvenli, düzgün ve hızlı okuma becerisi kazandırmayı hedefler.",
   },
   {
-    category: "Ortaokul Öğrencileri İçin",
     title: "Anlayarak Etkin Okuma ve Test Teknikleri",
-    desc: "Ortaokul öğrencilerinin hem okuma hem sınav becerilerini artırmak üzere test çözme stratejileriyle desteklenen etkin okuma programı.",
-    tag: "Ortaokul",
+    tag: "Ortaokul Öğrencileri için",
+    desc:
+      "• Ortaokul düzeyindeki öğrencilerin hem okuma–anlama becerilerini hem de sınav performansını artırmaya odaklanır.\n" +
+      "• Okuma güçlüklerini belirleyip bireysel ve Türkiye Yüzyılı Maarif Modeli paralelinde bütüncül/bağlamsal çözümler sunan içerikler ve dijital egzersizlerle desteklenir.\n" +
+      "• Bilgiye hızlı ulaşma, paragraf çözme, ana fikir bulma ve dikkat yönetimi gibi temel sınav becerilerini geliştirir.\n" +
+      "• Test çözme stratejileri, süre yönetimi ve soru tiplerine yönelik hedefli pratiklerle desteklenir.\n" +
+      "• Dijital platform üzerinden öğrenci gelişimi düzenli olarak takip edilerek eksik noktalar ivedilikle telafi edilir.",
   },
   {
-    category: "Sınav Hazırlık Öğrencileri İçin",
     title: "LGS, TYT, AYT, YKS, ALES, KPSS Sınav Odaklı Hızlı Okuma",
-    desc: "Sınavlarda zaman yönetimi, okuma hızı ve anlama becerilerini artırmaya yönelik özel tekniklerin uygulandığı sınav odaklı hızlı okuma programı.",
-    tag: "Sınav Hazırlık",
+    tag: "Sınav Hazırlık Öğrencileri için",
+    desc:
+      "• Sınavlarda zaman kazandırmayı, okuma hızını artırmayı ve anlamayı güçlendirmeyi hedefleyen özel bir programdır.\n" +
+      "• Paragraf, grafik–soru okuma ve mantık ilişkilendirme becerilerini geliştiren hedef odaklı teknikler sunar.\n" +
+      "• Dijital egzersizler sayesinde öğrencinin hız–doğruluk dengesi düzenli olarak ölçülür ve gelişimi detaylı raporlanır.\n" +
+      "• Sınav sürecindeki performansı artırmak için kişiselleştirilmiş geri bildirimlerle desteklenir.",
   },
   {
-    category: "Yetişkinler ve Kurumlar İçin",
     title: "Bireysel veya Kurumsal Hızlı Okuma Programları",
-    desc: "Yetişkin bireyler ve kurumlar için ihtiyaçlara göre kişiselleştirilen hızlı okuma, odaklanma ve verimlilik odaklı eğitim programları.",
-    tag: "Yetişkin / Kurum",
+    tag: "Yetişkinler ve Kurumlar için",
+    desc:
+      "• Yetişkin bireyler veya kurum çalışanları için ihtiyaçlara göre özelleştirilen hızlı okuma ve odaklanma programlarıdır.\n" +
+      "• İş hayatında verimlilik, bilgiye hızlı ulaşma, rapor ve doküman okuma hızını artırmaya yönelik modüller içerir.\n" +
+      "• Kurumlar için toplu kullanıcı yönetimi, performans raporları ve yıllık gelişim analizleri sunan gelişmiş bir platformla desteklenir.\n" +
+      "• Bireyler için odaklanma, dikkat yönetimi ve ileri seviye anlama tekniklerini geliştiren güçlü bir uygulama alanı sağlar.",
   },
 ];
 

@@ -9,6 +9,7 @@ const MENU_ITEMS = [
   { label: "Yöntemlerimiz", to: "/yontemlerimiz" },
   { label: "Eğitim Türlerimiz", to: "/egitim-turlerimiz" },
   { label: "Giriş Yap", to: "/giris" },
+  { label: "SSS", to: "/sss" },
 ];
 
 function Footer() {

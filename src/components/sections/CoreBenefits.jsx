@@ -49,7 +49,7 @@ function CoreBenefits() {
                 </h3>
               </div>
 
-              <p className="text-sm text-slate-600 leading-relaxed">
+              <p className="text-sm text-slate-600 leading-relaxed whitespace-pre-line">
                 {item.description}
               </p>
             </div>

@@ -17,9 +17,10 @@ function TypesOfEducation() {
           </h1>
 
           <p className="mt-4 text-sm sm:text-base text-slate-600 max-w-2xl mx-auto">
-            İstanbul Hızlı Okuma Akademisi farklı yaş gruplarının ve
-            ihtiyaçların tümüne uygun, modern ve uygulanabilir hızlı okuma
-            programları sunar.
+            İstanbul Hızlı Okuma Akademisi, farklı yaş gruplarının ve kurumların
+            ihtiyaçlarına özel olarak tasarlanmış, modern ve uygulanabilir hızlı
+            okuma programları sunar. Tüm eğitim süreçleri dijital altyapı, veri
+            odaklı takip ve kişiselleştirilmiş modüllerle desteklenir.
           </p>
         </div>
 
@@ -46,7 +47,7 @@ function TypesOfEducation() {
                   {program.title}
                 </h3>
 
-                <p className="text-sm text-slate-700 leading-relaxed">
+                <p className="text-sm text-slate-700 leading-relaxed whitespace-pre-line">
                   {program.desc}
                 </p>
               </article>
@@ -54,11 +55,14 @@ function TypesOfEducation() {
           </div>
 
           {/* Alt açıklama */}
-          <p className="mt-10 text-xs sm:text-sm text-slate-500 text-center max-w-3xl mx-auto">
-            Eğitim türlerimiz; öğrencilerin yaş grubuna, hedeflerine ve
-            ihtiyaçlarına göre şekillendirilir. Her eğitim, bireyin
-            potansiyelini en iyi şekilde ortaya çıkaracak bir yaklaşımla
-            yapılandırılır.
+          <p className="mt-10 text-xs sm:text-sm text-slate-500 text-center max-w-3xl mx-auto leading-relaxed">
+            Eğitim türlerimiz; öğrencilerin yaş gruplarına, hedeflerine ve
+            ihtiyaçlarına göre yapılandırılır.
+            <br />
+            <br />
+            Her eğitim, bireyin potansiyelini en doğru şekilde ortaya çıkaracak
+            şekilde tasarlanmış olup dijital takip sistemiyle sürekli izlenir ve
+            raporlanır.
           </p>
         </div>
       </div>

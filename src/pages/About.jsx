@@ -15,7 +15,7 @@ function About() {
           </h1>
 
           <p className="mt-3 text-base sm:text-lg font-medium text-slate-700">
-            Eğitime Adanmış Bir Hızlı Okuma Serüveni
+            Bilimsel Temelli Hızlı Okuma ve Bilişsel Gelişim
           </p>
         </div>
 
@@ -28,76 +28,100 @@ function About() {
             {/* Sol: metinler */}
             <div className="space-y-4 text-sm sm:text-base leading-relaxed text-slate-700">
               <p>
-                Bireyin hayatında en önemli süreçlerden biri olan eğitim; sadece
-                bilgiyi aktarmak değil, aynı zamanda bireyin potansiyelini
-                keşfetmesine yardımcı olmak, ona rehberlik etmek ve daha geniş
-                bir perspektif kazandırmaktır.
+                İstanbul Hızlı Okuma Akademisi, öğrenme biliminin en güncel
+                bulgularını eğitim teknolojileriyle birleştiren modern bir hızlı
+                okuma ve bilişsel gelişim merkezidir.
               </p>
 
               <p>
-                Biz de bu anlayışla yola çıkan, eğitime gönül vermiş öğretmenler
-                olarak İstanbul Hızlı Okuma Akademisini hayata geçirdik.
+                Eğitim anlayışımız, öğrencilerin yalnızca daha hızlı okumalarını
+                sağlamakla sınırlı değildir; aynı zamanda onların düşünme
+                becerilerini geliştirmeyi, analiz yeteneklerini güçlendirmeyi ve
+                öğrenme süreçlerini veriye dayalı tekniklerle desteklemeyi
+                hedefler.
               </p>
 
               <p>
-                En büyük amacımız, öğrencilerin okuma hızlarını artırarak
-                bilgiye daha hızlı ulaşmalarını ve bu bilgiyi daha etkili bir
-                şekilde işlemelerini sağlamaktır.
+                Her öğrencinin potansiyeline ulaşmasının en etkili yolu, kişiye
+                özel bir eğitim yaklaşımıdır. Bu nedenle platformumuz;
+                öğrencilerin okuma alışkanlıklarını, dikkat düzeylerini, anlama
+                performanslarını ve bilişsel eğilimlerini ayrıntılı analiz eden
+                kapsamlı bir dijital altyapıyla tasarlanmıştır.
               </p>
 
               <p>
-                Hızlı okuma, bir metni daha kısa sürede okuyup anlamayı sağlayan
-                bir dizi teknikten oluşur. Bu tekniklerin her yaşta öğrenci
-                tarafından öğrenilebileceğini biliyoruz.
+                Bu altyapı, öğrencinin gelişimini gerçek zamanlı ölçer; eğitim
+                planını otomatik olarak kişiselleştirir ve her öğrencinin kendi
+                hızında ilerlemesini sağlar.
               </p>
 
               <p>
-                İstanbul Hızlı Okuma Akademisi, öğrencilere farklı teknikler
-                sunarak onların bireysel ihtiyaçlarına uygun bir eğitim planı
-                sunar.
+                Akademimiz, alanında uzman eğitmenlerin uzun yıllara dayanan
+                deneyimlerini bilimsel yöntemlerle birleştiren, uluslararası
+                standartlarda bir eğitim modeline sahiptir.
               </p>
 
               <p>
-                Eğitim, bireyin hayatındaki en önemli süreçlerden biridir ve bu
-                süreçte onlara rehberlik etmek bizim en büyük tutkumuzdur.
+                Tüm eğitim içerikleri modern pedagojik prensiplere dayalı olarak
+                tasarlanmış, farklı yaş gruplarının ihtiyaçlarına özel olarak
+                yapılandırılmıştır.
+              </p>
+
+              <p>
+                Öğrenciler; hızlı okuma tekniklerinin ötesine geçen bir bilişsel
+                gelişim programından yararlanır ve akademik başarılarına
+                doğrudan etki edebilecek kapsamlı bir kazanım elde ederler.
+              </p>
+
+              <p>
+                İstanbul Hızlı Okuma Akademisi olarak önceliğimiz; her
+                öğrencinin bireysel öğrenme yolculuğunu güvenle desteklemek,
+                potansiyelini görünür kılmak ve gelecekteki öğrenme başarısı
+                için güçlü bir temel oluşturmaktır.
+              </p>
+
+              <p>
+                Eğitim, yaşam boyunca süren bir gelişim serüvenidir ve biz bu
+                serüvende öğrencilerimize bilimsel bir rehberlik sunarak okumayı
+                bir yaşam biçimi haline getirmelerini en büyük sorumluluğumuz
+                olarak görüyoruz.
               </p>
             </div>
 
             {/* Sağ: vurgulu kutu */}
             <aside className="rounded-2xl border border-slate-100 bg-white/90 p-6 shadow-sm h-full flex flex-col">
-              <h2 className="text-sm font-semibold text-sky-700 mb-3">
+              <h2 className="text-sm font-semibold text-sky-700 mb-4">
                 Neye İnanıyoruz?
               </h2>
 
-              <div className="flex flex-col justify-between flex-1 text-sm text-slate-700">
-                {/* 1. paragraf */}
-                <p className="border-l-2 border-sky-500/70 pl-3">
-                  En büyük amacımız, öğrencilerin okuma hızlarını artırarak
-                  bilgiye daha hızlı ulaşmalarını ve bu bilgiyi daha etkili bir
-                  şekilde işlemelerini sağlamaktır.
+              <div className="flex flex-col gap-6 text-sm text-slate-700">
+                <p className="flex gap-3 leading-relaxed">
+                  <span className="text-lg leading-none">✨</span>
+                  <span>
+                    Her öğrencinin potansiyeli ölçümlenebilir, geliştirilebilir
+                    ve görünürdür. Bu nedenle eğitim sürecimizi veriye dayalı
+                    analizlerle yapılandırıyor, öğrencinin bireysel
+                    ihtiyaçlarını merkeze alıyoruz.
+                  </span>
                 </p>
 
-                {/* Yıldız */}
-                <span className="self-center text-yellow-500 text-lg leading-none">
-                  ★
-                </span>
-
-                {/* 2. paragraf */}
-                <p className="border-l-2 border-sky-500/40 pl-3">
-                  Hızlı okuma, bir metni daha kısa sürede okuyup anlamayı
-                  sağlayan bir dizi teknikten oluşur. Bu tekniklerin her yaşda
-                  öğrenci tarafından öğrenilebileceğini biliyoruz.
+                <p className="flex gap-3 leading-relaxed">
+                  <span className="text-lg leading-none">✨</span>
+                  <span>
+                    Hızlı okuma, yalnızca daha hızlı okumak değil; bilgiyi
+                    etkili işleme, doğru anlama ve stratejik düşünme
+                    becerisidir. Bu becerilerin her yaşta bilimsel yöntemlerle
+                    geliştirilebileceğini biliyoruz.
+                  </span>
                 </p>
 
-                {/* Yıldız */}
-                <span className="self-center text-yellow-500 text-lg leading-none">
-                  ★
-                </span>
-
-                {/* 3. paragraf */}
-                <p className="border-l-2 border-sky-500/20 pl-3">
-                  Eğitim, bireyin hayatındaki en önemli süreçlerden biridir ve
-                  bu süreçte onlara rehberlik etmek bizim en büyük tutkumuzdur.
+                <p className="flex gap-3 leading-relaxed">
+                  <span className="text-lg leading-none">✨</span>
+                  <span>
+                    Kişiselleştirilmiş eğitim en etkili öğrenme modelidir. Her
+                    öğrenciyi kendi profiline uygun tekniklerle destekleyerek
+                    sürdürülebilir bir gelişim elde edilmesini sağlıyoruz.
+                  </span>
                 </p>
               </div>
             </aside>

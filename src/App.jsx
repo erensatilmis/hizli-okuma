@@ -10,6 +10,7 @@ import Goals from "./pages/Goals";
 import Methods from "./pages/Methods";
 import TypesOfEducation from "./pages/TypesOfEducation";
 import Footer from "./components/layout/Footer";
+import Faq from "./pages/Faq";
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
           <Route path="/hedeflerimiz" element={<Goals />} />
           <Route path="/yontemlerimiz" element={<Methods />} />
           <Route path="/egitim-turlerimiz" element={<TypesOfEducation />} />
+          <Route path="/sss" element={<Faq />} />
         </Routes>
       </main>
 

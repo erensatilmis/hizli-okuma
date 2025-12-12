@@ -17,9 +17,11 @@ function Methods() {
           </h1>
 
           <p className="mt-4 text-sm sm:text-base text-slate-600 max-w-2xl mx-auto">
-            Eğitim sürecimiz; yerinde ve online seçeneklerin, canlı derslerin,
-            dijital egzersizlerin ve güçlü bir takip sisteminin bir araya
-            geldiği bütüncül bir yaklaşımla planlanır.
+            Eğitim sürecimiz; yerinde ve online uygulamalarla, yıllık müfredata
+            uyumlu modüllerle, dijital egzersizlerle ve güçlü bir takip
+            sistemiyle alanında öncü bir öğrenme deneyimi sunar. Tüm yapı,
+            okullar ve eğitim kurumlarıyla iş birliği içinde eğitim öğretim
+            yılına entegre olacak şekilde planlanmıştır.
           </p>
         </div>
 
@@ -44,7 +46,7 @@ function Methods() {
                   {method.title}
                 </h2>
 
-                <p className="text-sm text-slate-700 leading-relaxed">
+                <p className="text-sm text-slate-700 leading-relaxed whitespace-pre-line">
                   {method.desc}
                 </p>
               </article>
@@ -52,12 +54,16 @@ function Methods() {
           </div>
 
           {/* Alt açıklama */}
-          <p className="mt-8 text-xs sm:text-sm text-slate-500 text-center max-w-3xl mx-auto">
-            Eğitimimiz toplamda 32 saat olup; 16 canlı derse ek olarak dijital
-            platform üzerinden yapılan egzersiz ve ödevlerle desteklenir. Süreç
-            boyunca ödev takibi ve eğitmen-veli iletişimiyle öğrencinin gelişimi
-            yakından izlenir; program sonunda öğrenciye özel okuma gelişim
-            karnesi sunulur.
+          <p className="mt-8 text-xs sm:text-sm text-slate-500 text-center max-w-3xl mx-auto leading-relaxed">
+            Eğitim sistemimiz, bir kurs programı değil; eğitim öğretim yılına
+            yayılmış, kurumlara özel dijital okuma geliştirme altyapısıdır.
+            <br />
+            <br />
+            Tüm süreç; yıllık modüller, düzenli değerlendirmeler, sınıf bazlı
+            gelişim analizi ve yapay zekâ destekli içerik yönetimi ile
+            desteklenir. Öğrencilerin gelişimi yıl boyunca kesintisiz takip
+            edilir; program sonunda hem öğrenciye hem kuruma detaylı gelişim
+            raporları sunulur.
           </p>
         </div>
       </div>

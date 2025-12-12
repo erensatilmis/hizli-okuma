@@ -30,16 +30,29 @@ function FounderQuote() {
           {/* arka plan */}
           <div className="pointer-events-none absolute inset-0 -z-10 bg-gradient-to-br from-sky-50/70 via-white to-indigo-50/60" />
 
-          {/* büyük tırnak */}
-          <div className="absolute -top-6 -left-2 text-7xl font-serif text-sky-100 select-none">
-            “
-          </div>
-
-          <blockquote className="relative text-sm sm:text-base leading-relaxed text-slate-700">
-            “Hızlı okuma, bilgiye hızlı erişim ve etkili öğrenme için kritik bir
-            beceridir. Odaklanma ve hafıza güçlendirme teknikleriyle
-            birleştiğinde, bireylerin potansiyellerini tam anlamıyla ortaya
-            çıkarmalarını sağlar.”
+          <blockquote className="relative text-sm sm:text-base leading-relaxed text-slate-700 whitespace-pre-line">
+            “Anlayarak hızlı okuma; ilkokulda öğrendiğimiz geleneksel okuma
+            modelinin ötesine geçen, zihne adeta yeni bir sürüm yükleyen modern
+            bir okuma yaklaşımıdır. Nasıl ki teknolojik cihazlarımız belirli
+            aralıklarla güncellenerek daha hızlı, daha güçlü ve daha verimli
+            hâle geliyorsa hızlı okuma da okuma sistemimizi aynı şekilde
+            günceller, geliştirir ve optimize eder.
+            {"\n\n"}
+            Hızlı okumak yalnızca metni daha çabuk tüketmek değildir. Bu süreç;
+            daha çok okumayı, daha fazla düşünmeyi, daha hızlı ve daha derin bir
+            şekilde zihinsel işlem yapabilmeyi beraberinde getirir. Okuyan
+            bireyin sorgulama becerisi güçlenir, kelime hazinesi gelişir ve
+            beyin daha geniş bir nöron ağını aktif olarak kullanmaya başlar.
+            Kelime hazinesi zenginleştikçe düşünme kapasitesi genişler; düşünme
+            kapasitesi genişleyen bireyin zihnin üretkenliği, dikkat kalitesi ve
+            bilişsel çevikliği belirgin şekilde artar.
+            {"\n\n"}
+            Bu nedenle hızlı okuma yalnızca bir teknik ya da beceri değil;
+            bireyin zihinsel kapasitesini üst seviyeye taşıyan, düşünme biçimini
+            dönüştüren bir ‘zihinsel çağ atlama’ sürecidir. Amacımız, her yaş
+            grubundaki bireyin bu dönüşümü güvenilir, bilimsel ve yenilikçi
+            yöntemlerle deneyimlemesini sağlamak; öğrenme yolculuklarını daha
+            verimli, daha güçlü ve daha bilinçli bir noktaya taşımaktır.”
           </blockquote>
 
           {/* Çizgi */}
@@ -47,7 +60,6 @@ function FounderQuote() {
 
           {/* İmza alanı */}
           <figcaption className="mt-4 flex items-center gap-3">
-            {/* Fotoğraf (tıklanabilir) */}
             <button
               type="button"
               onClick={() => setOpen(true)}
@@ -73,7 +85,7 @@ function FounderQuote() {
         </figure>
       </div>
 
-      {/* Modal – foto büyük hali */}
+      {/* Modal */}
       {open && (
         <div
           className="fixed inset-0 z-50 flex items-center justify-center bg-black/40 backdrop-blur-sm px-4"
@@ -83,7 +95,6 @@ function FounderQuote() {
             className="relative max-w-md w-full rounded-2xl bg-white shadow-2xl overflow-hidden"
             onClick={(e) => e.stopPropagation()}
           >
-            {/* Header */}
             <div className="flex items-center justify-between px-4 py-3 border-b border-slate-200">
               <span className="text-sm font-semibold text-slate-900">
                 Gül Özdemir
@@ -97,7 +108,6 @@ function FounderQuote() {
               </button>
             </div>
 
-            {/* Image */}
             <div className="bg-slate-900 flex items-center justify-center">
               <img
                 src="/images/gul-ozdemir.jpeg"

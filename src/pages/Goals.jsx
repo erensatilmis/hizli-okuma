@@ -40,7 +40,7 @@ function Goals() {
                 {goal.title}
               </h3>
 
-              <p className="text-sm text-slate-700 leading-relaxed">
+              <p className="text-sm text-slate-700 leading-relaxed whitespace-pre-line">
                 {goal.desc}
               </p>
             </div>
