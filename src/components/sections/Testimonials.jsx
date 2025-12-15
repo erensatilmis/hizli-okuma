@@ -1,6 +1,5 @@
 // src/components/sections/Testimonials.jsx
 import { useState } from "react";
-import { useReveal } from "../../hooks/useReveal";
 import { TESTIMONIALS } from "../../lib/constants";
 
 const MAX_PREVIEW_LENGTH = 320;
@@ -11,7 +10,6 @@ function getPreview(text) {
 }
 
 function Testimonials() {
-  const { ref, visible } = useReveal();
   const [selected, setSelected] = useState(null); // metin modalı için
   const [photoModal, setPhotoModal] = useState(null); // fotoğraf modalı için { src, name }
 
@@ -22,12 +20,7 @@ function Testimonials() {
   const handleClosePhoto = () => setPhotoModal(null);
 
   return (
-    <section
-      ref={ref}
-      className={`pt-16 transition-all duration-1000 ${
-        visible ? "opacity-100 translate-x-0" : "opacity-0 translate-x-60"
-      }`}
-    >
+    <section className="relative overflow-hidden pt-16">
       {/* Title */}
       <div className="text-center mb-12">
         <p className="text-xs font-semibold tracking-[0.2em] text-sky-600 uppercase">

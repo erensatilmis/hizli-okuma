@@ -1,18 +1,11 @@
 // src/components/sections/FounderQuote.jsx
 import { useState } from "react";
-import { useReveal } from "../../hooks/useReveal";
 
 function FounderQuote() {
   const [open, setOpen] = useState(false);
-  const { ref, visible } = useReveal();
 
   return (
-    <section
-      ref={ref}
-      className={`pt-16 transition-all duration-1000 ${
-        visible ? "opacity-100 translate-x-0" : "opacity-0 -translate-x-60"
-      }`}
-    >
+    <section className="relative overflow-hidden pt-16">
       <div className="mx-auto max-w-3xl">
         {/* başlık */}
         <div className="text-center mb-8">

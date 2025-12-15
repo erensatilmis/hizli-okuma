@@ -8,7 +8,7 @@ import Testimonials from "../components/sections/Testimonials";
 
 function Home() {
   return (
-    <div>
+    <div className="flex flex-col items-center max-w-[90rem] mx-auto">
       {/* Hero section – büyük başlık / giriş */}
       {/* <Hero /> */}
 

@@ -17,7 +17,7 @@ function App() {
     <div className="min-h-screen bg-gradient-to-br from-sky-50/70 via-white to-white text-slate-900">
       <Navbar />
 
-      <main className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
+      <main>
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/hakkimizda" element={<About />} />
