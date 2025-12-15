@@ -363,6 +363,68 @@ const MANIFESTO = [
   },
 ];
 
+const ADVANTAGES_PARAGRAPH_ITEMS = [
+  {
+    title: "Bütünleşik Eğitim Platformu",
+    dot: "bg-sky-500 shadow-[0_0_0_6px_rgba(14,165,233,0.18)]",
+    hover: "group-hover:text-sky-600",
+    text: `İstanbul Hızlı Okuma Akademisi’nin dijital platformu, öğrenme bilimini
+      yapay zekâ destekli analizlerle birleştirerek okuma hızını, anlama
+      becerisini ve bilişsel performansı gerçek zamanlı olarak geliştiren
+      yenilikçi bir eğitim ekosistemi sunar.`,
+  },
+  {
+    title: "Kişiselleştirilmiş Akışlar",
+    dot: "bg-emerald-400 shadow-[0_0_0_6px_rgba(52,211,153,0.18)]",
+    hover: "group-hover:text-emerald-500",
+    text: `Bu sistem; her öğrencinin öğrenme stiline uyum sağlayan
+      kişiselleştirilmiş akışlar, dinamik egzersiz algoritmaları ve sürekli
+      gelişimi görünür kılan detaylı performans raporları ile modern
+      eğitimin gerektirdiği tüm teknolojik yeterlilikleri bir araya getirir.`,
+  },
+  {
+    title: "360 Derece Analiz",
+    dot: "bg-fuchsia-400 shadow-[0_0_0_6px_rgba(192,132,252,0.18)]",
+    hover: "group-hover:text-fuchsia-500",
+    text: `Platform, yalnızca hızlı okuma becerisini artırmayı değil;
+      öğrencilerin dikkat yönetimi, odaklanma süresi, analiz hızları ve
+      sınav performanslarını bilimsel veri temelli yöntemlerle güçlendirmeyi
+      hedefler.`,
+  },
+  {
+    title: "İnteraktif Süreçler",
+    dot: "bg-amber-400 shadow-[0_0_0_6px_rgba(251,191,36,0.18)]",
+    hover: "group-hover:text-amber-500",
+    text: `Eğitim süreci; interaktif uygulamalar, oyunlaştırılmış egzersiz
+      modülleri, yapay zekâ tabanlı ölçme-değerlendirme araçları ve uzman
+      eğitmen rehberliği ile tamamen dijital bir öğrenme yolculuğuna
+      dönüştürülmüştür.`,
+  },
+  {
+    title: "Sade ve Stratejik Deneyim",
+    dot: "bg-slate-400 shadow-[0_0_0_6px_rgba(148,163,184,0.18)]",
+    hover: "group-hover:text-slate-700",
+    text: `İstanbul Hızlı Okuma Akademisi’nin dijital altyapısı, hem öğrenci hem
+      veli hem de eğitmen tarafında yüksek kullanıcı deneyimi sunan sade,
+      akıllı ve stratejik bir tasarıma sahiptir.`,
+  },
+  {
+    title: "Veriyle Kişiye Özel Gelişim",
+    dot: "bg-indigo-400 shadow-[0_0_0_6px_rgba(129,140,248,0.18)]",
+    hover: "group-hover:text-indigo-600",
+    text: `Her müdahale veriye dayanır; her adım kişiye özeldir; her ölçüm
+      gelişimin şeffaf bir göstergesidir.`,
+  },
+  {
+    title: "Kapsamlı Dijital Mimari",
+    dot: "bg-cyan-400 shadow-[0_0_0_6px_rgba(34,211,238,0.18)]",
+    hover: "group-hover:text-cyan-600",
+    text: `Bu platform, yalnızca bir hızlı okuma sistemi değil; öğrencilerin
+      bilişsel potansiyelini en üst seviyeye çıkaran kapsamlı bir dijital
+      öğrenme mimarisidir.`,
+  },
+];
+
 export {
   ADVANTAGES,
   CORE_BENEFITS,
@@ -372,4 +434,5 @@ export {
   METHODS,
   PROGRAMS,
   MANIFESTO,
+  ADVANTAGES_PARAGRAPH_ITEMS,
 };
